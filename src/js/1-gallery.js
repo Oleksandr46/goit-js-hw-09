@@ -63,7 +63,6 @@ const images = [
     description: 'Lighthouse Coast Sea',
   },
 ];
-
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
@@ -91,5 +90,5 @@ ulElement.innerHTML = markup;
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionsDalay: 250,
+  captionDalay: 250,
 });
