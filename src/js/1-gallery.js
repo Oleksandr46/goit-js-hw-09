@@ -90,5 +90,5 @@ ulElement.innerHTML = markup;
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionDalay: 250,
+  captionDelay: 250,
 });
