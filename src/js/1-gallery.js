@@ -93,30 +93,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionsDalay: 250,
 });
-
-// ulElement.addEventListener('click', e => {
-//   if (!e.target.classList.contains('gallery-image')) {
-//     return;
-//   }
-//   e.preventDefault();
-//   showModal(e.target.dataset.source);
-// });
-// function showModal(original) {
-//   const instance = basicLightbox.create(`
-// 	<img src="${original}"/>
-
-// `);
-//   instance.show();
-// }
-//!=============================================
-//     <li class="gallery-item">
-//   <a class="gallery-link" href="${preview}">
-//     <img
-//       class="gallery-image"
-//       src="${preview}"
-//       data-source="${original}"
-//       alt="${description}"
-//     />
-//   </a>
-// </li>
-//!=============================================
