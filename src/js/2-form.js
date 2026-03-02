@@ -29,10 +29,10 @@ function handleSubmit(event) {
     alert('Fill please all fields');
     return;
   }
-  console.log({
-    email: formData.email.trim(),
-    message: formData.message.trim(),
-  });
+  formData.email = formData.email.trim();
+  formData.message = formData.message.trim();
+
+  console.log(formData);
   localStorage.removeItem('feedback-form-state');
   form.reset();
   formData.email = '';
